@@ -10,5 +10,9 @@ public class GitTest {
         System.out.println("git ok");
         System.out.println("private");
         System.out.println("another way");
+        System.out.println("another way");
+        System.out.println("another way");
+        System.out.println("another way");
+        System.out.println("another way");
     }
 }
