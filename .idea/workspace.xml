@@ -192,7 +192,7 @@
       <workItem from="1651202955085" duration="906000" />
       <workItem from="1651712557096" duration="39600000" />
       <workItem from="1651915154495" duration="222000" />
-      <workItem from="1651915396261" duration="1248000" />
+      <workItem from="1651915396261" duration="1629000" />
     </task>
     <task id="LOCAL-00001" summary="flink cdc &amp; flink wc code">
       <created>1650966225547</created>
@@ -278,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651916633141</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="git change">
+      <created>1651917017660</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651917017660</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
