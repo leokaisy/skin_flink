@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="flink transformation learning" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\maven_reposity" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Program Files/apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="27xXE1gOwKe29cJEr3EckJnvYrG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../starrocks&amp;doris/尚硅谷大数据技术之Flink CDC/代码/flink-cdc-connectors" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.program.transform" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.program.flinkcdc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SinkToMySql">
+    <configuration name="PartitionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter5.datasource.transform.PartitionTest" />
+      <module name="skin_flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter5.datasource.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReduceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter5.datasource.transform.ReduceTest" />
+      <module name="skin_flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter5.datasource.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RichFunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter5.datasource.transform.RichFunctionTest" />
+      <module name="skin_flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter5.datasource.transform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinkToFileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter5.datasource.sink.SinkToFileTest" />
+      <module name="skin_flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter5.datasource.sink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinkToMySql" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter5.sink.SinkToMySql" />
+      <module name="skin_flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter5.sink.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.wc.StreamWordCount" />
+      <module name="skin_flink" />
+      <option name="PROGRAM_PARAMETERS" value="--host localhost --port 7777" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter5.datasource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.StreamWordCount" />
+      <item itemvalue="Application.ReduceTest" />
+      <item itemvalue="Application.RichFunctionTest" />
+      <item itemvalue="Application.PartitionTest" />
+      <item itemvalue="Application.SinkToFileTest" />
+      <item itemvalue="Application.SinkToMySql" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SinkToMySql" />
+        <item itemvalue="Application.SinkToFileTest" />
+        <item itemvalue="Application.PartitionTest" />
+        <item itemvalue="Application.RichFunctionTest" />
+        <item itemvalue="Application.ReduceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="" />
+      <created>1650262598467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650262598467</updated>
+      <workItem from="1650262599659" duration="7189000" />
+      <workItem from="1650331846379" duration="7623000" />
+      <workItem from="1650857479440" duration="33284000" />
+      <workItem from="1651109986470" duration="1298000" />
+      <workItem from="1651126797599" duration="3788000" />
+      <workItem from="1651202955085" duration="906000" />
+      <workItem from="1651712557096" duration="39600000" />
+    </task>
+    <task id="LOCAL-00001" summary="flink cdc &amp; flink wc code">
+      <created>1650966225547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650966225547</updated>
+    </task>
+    <task id="LOCAL-00002" summary="flink cdc &amp; flink wc code">
+      <created>1651029928029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651029928029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="flink datasource learning">
+      <created>1651802845850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651802845850</updated>
+    </task>
+    <task id="LOCAL-00004" summary="flink transformation learning">
+      <created>1651888405147</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651888405147</updated>
+    </task>
+    <task id="LOCAL-00005" summary="flink transformation learning">
+      <created>1651910233015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651910233015</updated>
+    </task>
+    <task id="LOCAL-00006" summary="flink transformation learning">
+      <created>1651910380435</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651910380435</updated>
+    </task>
+    <task id="LOCAL-00007" summary="flink transformation learning">
+      <created>1651912500850</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651912500850</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.javassist:javassist" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-servlet" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-java" />
+    <option featureType="dependencySupport" implementationName="java:net.minidev:accessors-smart" />
+    <option featureType="dependencySupport" implementationName="java:com.google.j2objc:j2objc-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.jackson:jackson-mapper-asl" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.gson:gson" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerb-identity" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-mapreduce-client-common" />
+    <option featureType="dependencySupport" implementationName="java:commons-io:commons-io" />
+    <option featureType="dependencySupport" implementationName="java:javax.ws.rs:jsr311-api" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-xml" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-mapreduce-client-jobclient" />
+    <option featureType="dependencySupport" implementationName="java:org.scala-lang:scala-library" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-table-planner-blink_2.12" />
+    <option featureType="dependencySupport" implementationName="java:com.google.errorprone:error_prone_annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerb-crypto" />
+    <option featureType="dependencySupport" implementationName="java:com.ververica:flink-connector-mysql-cdc" />
+    <option featureType="dependencySupport" implementationName="java:commons-lang:commons-lang" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.avro:avro" />
+    <option featureType="dependencySupport" implementationName="java:org.objenesis:objenesis" />
+    <option featureType="dependencySupport" implementationName="java:com.typesafe.akka:akka-protobuf_2.12" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:listenablefuture" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-file-sink-common" />
+    <option featureType="dependencySupport" implementationName="java:com.typesafe.akka:akka-stream_2.12" />
+    <option featureType="dependencySupport" implementationName="java:com.alibaba:fastjson" />
+    <option featureType="dependencySupport" implementationName="java:commons-net:commons-net" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-webapp" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-annotations" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-common" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpcore" />
+    <option featureType="dependencySupport" implementationName="java:com.nimbusds:nimbus-jose-jwt" />
+    <option featureType="dependencySupport" implementationName="java:org.checkerframework:checker-qual" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.curator:curator-recipes" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-lang3" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-client" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerb-server" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-hdfs-client" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-yarn-client" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-databind" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-to-slf4j" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerb-common" />
+    <option featureType="dependencySupport" implementationName="java:com.thoughtworks.paranamer:paranamer" />
+    <option featureType="dependencySupport" implementationName="java:commons-collections:commons-collections" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-api" />
+    <option featureType="dependencySupport" implementationName="java:org.ow2.asm:asm" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-hadoop-fs" />
+    <option featureType="dependencySupport" implementationName="java:com.squareup.okhttp:okhttp" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:guava" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-queryable-state-client-java" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-math3" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-auth" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-configuration2" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerb-core" />
+    <option featureType="dependencySupport" implementationName="java:org.scala-lang.modules:scala-java8-compat_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.reactivestreams:reactive-streams" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpclient" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet.jsp:jsp-api" />
+    <option featureType="dependencySupport" implementationName="java:com.github.scopt:scopt_2.12" />
+    <option featureType="dependencySupport" implementationName="java:com.google.re2j:re2j" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerby-pkix" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.woodstox:stax2-api" />
+    <option featureType="dependencySupport" implementationName="java:mysql:mysql-connector-java" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-security" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.lz4:lz4-java" />
+    <option featureType="dependencySupport" implementationName="java:commons-codec:commons-codec" />
+    <option featureType="dependencySupport" implementationName="java:commons-cli:commons-cli" />
+    <option featureType="dependencySupport" implementationName="java:com.esotericsoftware.minlog:minlog" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.jaxrs:jackson-jaxrs-base" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.mojo:animal-sniffer-annotations" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-client" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-core" />
+    <option featureType="dependencySupport" implementationName="java:com.squareup.okio:okio" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-compress" />
+    <option featureType="dependencySupport" implementationName="java:com.twitter:chill_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.htrace:htrace-core4" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-shaded-netty" />
+    <option featureType="dependencySupport" implementationName="java:org.scala-lang.modules:scala-parser-combinators_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.jackson:jackson-core-asl" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerby-util" />
+    <option featureType="dependencySupport" implementationName="java:com.twitter:chill-java" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.curator:curator-client" />
+    <option featureType="dependencySupport" implementationName="java:com.typesafe.akka:akka-slf4j_2.12" />
+    <option featureType="dependencySupport" implementationName="java:com.github.stephenc.jcip:jcip-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerby-asn1" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-shaded-jackson" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.module:jackson-module-jaxb-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerb-admin" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-runtime_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.clapper:grizzled-slf4j_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-clients_2.12" />
+    <option featureType="dependencySupport" implementationName="java:commons-logging:commons-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-shaded-zookeeper-3" />
+    <option featureType="dependencySupport" implementationName="java:org.xerial.snappy:snappy-java" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-streaming-java_2.12" />
+    <option featureType="dependencySupport" implementationName="java:javax.xml.bind:jaxb-api" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerb-client" />
+    <option featureType="dependencySupport" implementationName="java:com.typesafe:config" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-yarn-api" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-core" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-servlet" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-shaded-asm-7" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerb-simplekdc" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerby-config" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.findbugs:jsr305" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:token-provider" />
+    <option featureType="dependencySupport" implementationName="java:com.typesafe.akka:akka-actor_2.12" />
+    <option featureType="dependencySupport" implementationName="java:commons-beanutils:commons-beanutils" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-mapreduce-client-core" />
+    <option featureType="dependencySupport" implementationName="java:com.esotericsoftware.kryo:kryo" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-core" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-optimizer_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-metrics-core" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:failureaccess" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:force-shading" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerby-xdr" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.woodstox:woodstox-core" />
+    <option featureType="dependencySupport" implementationName="java:net.minidev:json-smart" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-log4j12" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-util" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.curator:curator-framework" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet:javax.servlet-api" />
+    <option featureType="dependencySupport" implementationName="java:log4j:log4j" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.flink:flink-shaded-guava" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.logging.log4j:log4j-api" />
+    <option featureType="dependencySupport" implementationName="java:com.typesafe:ssl-config-core_2.12" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-yarn-common" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kerby:kerb-util" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="flink cdc &amp; flink wc code" />
+    <MESSAGE value="flink datasource learning" />
+    <MESSAGE value="flink transformation learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="flink transformation learning" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
