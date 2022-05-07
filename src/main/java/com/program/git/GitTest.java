@@ -9,5 +9,6 @@ public class GitTest {
     public static void main(String[] args) {
         System.out.println("git ok");
         System.out.println("private");
+        System.out.println("another way");
     }
 }

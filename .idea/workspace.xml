@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="flink transformation learning" />
+    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="git change" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +192,7 @@
       <workItem from="1651202955085" duration="906000" />
       <workItem from="1651712557096" duration="39600000" />
       <workItem from="1651915154495" duration="222000" />
-      <workItem from="1651915396261" duration="813000" />
+      <workItem from="1651915396261" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="flink cdc &amp; flink wc code">
       <created>1650966225547</created>
@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651916200734</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="git change">
+      <created>1651916633141</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651916633141</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +435,8 @@
     <MESSAGE value="flink cdc &amp; flink wc code" />
     <MESSAGE value="flink datasource learning" />
     <MESSAGE value="flink transformation learning" />
-    <option name="LAST_COMMIT_MESSAGE" value="flink transformation learning" />
+    <MESSAGE value="git change" />
+    <option name="LAST_COMMIT_MESSAGE" value="git change" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
