@@ -17,5 +17,7 @@ public class GitTest {
         System.out.println("double way");
         System.out.println("double way");
         System.out.println("double way");
+        System.out.println("double modify way");
+        System.out.println("double modify way");
     }
 }
