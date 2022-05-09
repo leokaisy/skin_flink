@@ -14,5 +14,8 @@ public class GitTest {
         System.out.println("another way");
         System.out.println("another way");
         System.out.println("another way");
+        System.out.println("double way");
+        System.out.println("double way");
+        System.out.println("double way");
     }
 }

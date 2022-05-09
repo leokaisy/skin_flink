@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="git change" />
+    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="git change">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/program/git/GitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/program/git/GitTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +194,7 @@
       <workItem from="1651202955085" duration="906000" />
       <workItem from="1651712557096" duration="39600000" />
       <workItem from="1651915154495" duration="222000" />
-      <workItem from="1651915396261" duration="2081000" />
+      <workItem from="1651915396261" duration="2881000" />
     </task>
     <task id="LOCAL-00001" summary="flink cdc &amp; flink wc code">
       <created>1650966225547</created>
@@ -292,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651917478425</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="git change">
+      <created>1651917632685</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1651917632685</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
