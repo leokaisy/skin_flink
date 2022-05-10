@@ -4,10 +4,6 @@ import com.program.func.CustomerDeserializationSchema;
 import com.ververica.cdc.connectors.mysql.MySqlSource;
 import com.ververica.cdc.connectors.mysql.table.StartupOptions;
 import com.ververica.cdc.debezium.DebeziumSourceFunction;
-<<<<<<< HEAD
-import com.ververica.cdc.debezium.StringDebeziumDeserializationSchema;
-=======
->>>>>>> fa9d9a5 (flink transformation learning)
 import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;

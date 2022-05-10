@@ -2,10 +2,8 @@ package com.program.wc;
 
 import org.apache.flink.api.common.typeinfo.Types;
 import org.apache.flink.api.java.tuple.Tuple2;
-<<<<<<< HEAD
-=======
+
 import org.apache.flink.api.java.utils.ParameterTool;
->>>>>>> fa9d9a5 (flink transformation learning)
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.KeyedStream;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
@@ -21,11 +19,8 @@ public class StreamWordCount {
     public static void main(String[] args) throws Exception {
         // 1. 创建一个流式的执行环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
-
-<<<<<<< HEAD
         // 2. 读取文本流
-        DataStreamSource<String> lineDataStream = env.socketTextStream("localhost", 7777);
-=======
+//        DataStreamSource<String> lineDataStream = env.socketTextStream("localhost", 7777);
         // 从参数中提取主机名和端口号
         ParameterTool paraTool = ParameterTool.fromArgs(args);
         String host = paraTool.get("host");
@@ -33,7 +28,6 @@ public class StreamWordCount {
 
         // 2. 读取文本流
         DataStreamSource<String> lineDataStream = env.socketTextStream(host, port);
->>>>>>> fa9d9a5 (flink transformation learning)
 
         // 3. 转换计算
         SingleOutputStreamOperator<Tuple2<String, Long>> wordAndOneTuple = lineDataStream.flatMap((String line, Collector<Tuple2<String, Long>> out) -> {

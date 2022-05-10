@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="git change">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/program/git/GitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/program/git/GitTest.java" afterDir="false" />
+    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="git change double modify">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/CustomerWatermarkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/WatermarkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/window/WindowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/program/flinkcdc/FlinkCDC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/program/flinkcdc/FlinkCDC2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/program/wc/StreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/program/wc/StreamWordCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,22 +74,9 @@
       <recent name="com.program.flinkcdc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SinkToMySql">
+  <component name="RunManager" selected="Application.WindowTest">
     <configuration name="PartitionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.program.chapter5.datasource.transform.PartitionTest" />
-      <module name="skin_flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.program.chapter5.datasource.transform.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReduceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.program.chapter5.datasource.transform.ReduceTest" />
       <module name="skin_flink" />
       <extension name="coverage">
         <pattern>
@@ -149,6 +141,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WindowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter6.window.WindowTest" />
+      <module name="skin_flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter6.window.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,19 +167,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.StreamWordCount" />
-      <item itemvalue="Application.ReduceTest" />
       <item itemvalue="Application.RichFunctionTest" />
       <item itemvalue="Application.PartitionTest" />
       <item itemvalue="Application.SinkToFileTest" />
       <item itemvalue="Application.SinkToMySql" />
+      <item itemvalue="Application.WindowTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WindowTest" />
         <item itemvalue="Application.SinkToMySql" />
         <item itemvalue="Application.SinkToFileTest" />
         <item itemvalue="Application.PartitionTest" />
         <item itemvalue="Application.RichFunctionTest" />
-        <item itemvalue="Application.ReduceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +199,7 @@
       <workItem from="1651202955085" duration="906000" />
       <workItem from="1651712557096" duration="39600000" />
       <workItem from="1651915154495" duration="222000" />
-      <workItem from="1651915396261" duration="2881000" />
+      <workItem from="1651915396261" duration="12203000" />
     </task>
     <task id="LOCAL-00001" summary="flink cdc &amp; flink wc code">
       <created>1650966225547</created>
@@ -301,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651917632685</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="git change double">
+      <created>1652058792863</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652058792863</updated>
+    </task>
+    <task id="LOCAL-00017" summary="git change double modify">
+      <created>1652059080320</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652059080320</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +478,9 @@
     <MESSAGE value="flink datasource learning" />
     <MESSAGE value="flink transformation learning" />
     <MESSAGE value="git change" />
-    <option name="LAST_COMMIT_MESSAGE" value="git change" />
+    <MESSAGE value="git change double" />
+    <MESSAGE value="git change double modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="git change double modify" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
