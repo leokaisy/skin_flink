@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="git change double modify">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/CustomerWatermarkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/WatermarkTest.java" afterDir="false" />
+    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="watermark &amp; window code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/watermark/CustomerWatermarkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/watermark/WatermarkTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/window/WindowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/program/flinkcdc/FlinkCDC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/program/flinkcdc/FlinkCDC2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/program/wc/StreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/program/wc/StreamWordCount.java" afterDir="false" />
@@ -199,7 +200,7 @@
       <workItem from="1651202955085" duration="906000" />
       <workItem from="1651712557096" duration="39600000" />
       <workItem from="1651915154495" duration="222000" />
-      <workItem from="1651915396261" duration="12203000" />
+      <workItem from="1651915396261" duration="12735000" />
     </task>
     <task id="LOCAL-00001" summary="flink cdc &amp; flink wc code">
       <created>1650966225547</created>
@@ -320,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652059080320</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="watermark &amp; window code">
+      <created>1652145420941</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1652145420941</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +488,8 @@
     <MESSAGE value="git change" />
     <MESSAGE value="git change double" />
     <MESSAGE value="git change double modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="git change double modify" />
+    <MESSAGE value="watermark &amp; window code" />
+    <option name="LAST_COMMIT_MESSAGE" value="watermark &amp; window code" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
