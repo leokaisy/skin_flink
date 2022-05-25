@@ -4,45 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="window code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/window/LateDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/window/UrlCountViewTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/window/UrlViewCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/window/UvCountSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/window/WindowAggregateSampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/window/WindowAggregateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter6/window/WindowProcessTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/watermark/CustomerWatermarkTest$CustomPeriodicGenerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/watermark/CustomerWatermarkTest$CustomWatermarkStrategy$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/watermark/CustomerWatermarkTest$CustomWatermarkStrategy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/watermark/CustomerWatermarkTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/watermark/WatermarkTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/watermark/WatermarkTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/UrlCountViewTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/UrlCountViewTest$UrlCountResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/UrlCountViewTest$UrlViewCountAgg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/UrlCountViewTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/UrlViewCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/UvCountSample$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/UvCountSample$MyProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/UvCountSample$UvAgg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/UvCountSample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/WindowAggregateSampleTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/WindowAggregateSampleTest$AvgPvAgg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/WindowAggregateSampleTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/WindowAggregateTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/WindowAggregateTest$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/WindowAggregateTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/WindowProcessTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/WindowProcessTest$UvCountByWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/program/chapter6/window/WindowProcessTest.class" afterDir="false" />
+    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="window code late data">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter7/EventTimeTimerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter7/ProcessFunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter7/ProcessingTimeTimerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter7/TopNExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter7/TopNExampleProcessAllWindowFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/flinkcdc/SyncTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/program/chapter6/CustomerWatermarkTest$CustomPeriodicGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/program/chapter6/CustomerWatermarkTest$CustomWatermarkStrategy$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/program/chapter6/CustomerWatermarkTest$CustomWatermarkStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/program/chapter6/CustomerWatermarkTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/program/chapter6/WatermarkTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/program/chapter6/WatermarkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin_flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/skin_flink.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +78,46 @@
       <recent name="com.program.flinkcdc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UrlCountViewTest">
+  <component name="RunManager" selected="Application.TopNExampleProcessAllWindowFunction">
+    <configuration name="EventTimeTimerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter7.EventTimeTimerTest" />
+      <module name="skin_flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessFunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter7.ProcessFunctionTest" />
+      <module name="skin_flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessingTimeTimerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter7.ProcessingTimeTimerTest" />
+      <module name="skin_flink" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.program.chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamWordCount" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.program.wc.StreamWordCount" />
       <module name="skin_flink" />
@@ -122,12 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UrlCountViewTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.program.chapter6.window.UrlCountViewTest" />
+    <configuration name="SyncTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.program.flinkcdc.SyncTest" />
       <module name="skin_flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.program.chapter6.window.*" />
+          <option name="PATTERN" value="com.program.flinkcdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,51 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UvCountSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.program.chapter6.window.UvCountSample" />
+    <configuration name="TopNExampleProcessAllWindowFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter7.TopNExampleProcessAllWindowFunction" />
       <module name="skin_flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.program.chapter6.window.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowAggregateSampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.program.chapter6.window.WindowAggregateSampleTest" />
-      <module name="skin_flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.program.chapter6.window.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowAggregateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.program.chapter6.window.WindowAggregateTest" />
-      <module name="skin_flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.program.chapter6.window.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WindowProcessTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.program.chapter6.window.WindowProcessTest" />
-      <module name="skin_flink" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.program.chapter6.window.*" />
+          <option name="PATTERN" value="com.program.chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +172,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.StreamWordCount" />
-      <item itemvalue="Application.WindowAggregateTest" />
-      <item itemvalue="Application.WindowAggregateSampleTest" />
-      <item itemvalue="Application.WindowProcessTest" />
-      <item itemvalue="Application.UvCountSample" />
-      <item itemvalue="Application.UrlCountViewTest" />
+      <item itemvalue="Application.SyncTest" />
+      <item itemvalue="Application.ProcessFunctionTest" />
+      <item itemvalue="Application.ProcessingTimeTimerTest" />
+      <item itemvalue="Application.EventTimeTimerTest" />
+      <item itemvalue="Application.TopNExampleProcessAllWindowFunction" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UrlCountViewTest" />
-        <item itemvalue="Application.UvCountSample" />
-        <item itemvalue="Application.WindowProcessTest" />
-        <item itemvalue="Application.WindowAggregateSampleTest" />
-        <item itemvalue="Application.WindowAggregateTest" />
+        <item itemvalue="Application.TopNExampleProcessAllWindowFunction" />
+        <item itemvalue="Application.EventTimeTimerTest" />
+        <item itemvalue="Application.ProcessingTimeTimerTest" />
+        <item itemvalue="Application.ProcessFunctionTest" />
+        <item itemvalue="Application.SyncTest" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +204,11 @@
       <workItem from="1651202955085" duration="906000" />
       <workItem from="1651712557096" duration="39600000" />
       <workItem from="1651915154495" duration="222000" />
-      <workItem from="1651915396261" duration="23136000" />
+      <workItem from="1651915396261" duration="31981000" />
+      <workItem from="1652699790009" duration="5996000" />
+      <workItem from="1652926506376" duration="616000" />
+      <workItem from="1652949849815" duration="5000" />
+      <workItem from="1653289053546" duration="15294000" />
     </task>
     <task id="LOCAL-00001" summary="flink cdc &amp; flink wc code">
       <created>1650966225547</created>
@@ -374,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652145563504</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="window code">
+      <created>1652236149302</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1652236149302</updated>
+    </task>
+    <task id="LOCAL-00022" summary="window code late data">
+      <created>1652258625836</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652258625836</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +526,8 @@
     <MESSAGE value="git change double modify" />
     <MESSAGE value="watermark &amp; window code" />
     <MESSAGE value="window code" />
-    <option name="LAST_COMMIT_MESSAGE" value="window code" />
+    <MESSAGE value="window code late data" />
+    <option name="LAST_COMMIT_MESSAGE" value="window code late data" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
