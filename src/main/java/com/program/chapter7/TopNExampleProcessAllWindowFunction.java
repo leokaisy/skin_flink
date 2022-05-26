@@ -45,7 +45,7 @@ public class TopNExampleProcessAllWindowFunction {
         stream.map(data -> data.url)
                 .windowAll(SlidingEventTimeWindows.of(Time.seconds(10), Time.seconds(5)))
                 .aggregate(new UrlHashMapCountAgg(), new UrlAllWindowResult())
-                .print();
+                .print("url count");
 
 
         // 4. 执行环境
