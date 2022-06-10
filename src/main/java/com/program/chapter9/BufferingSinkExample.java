@@ -6,6 +6,7 @@ import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.state.ListState;
 import org.apache.flink.api.common.state.ListStateDescriptor;
+import org.apache.flink.contrib.streaming.state.EmbeddedRocksDBStateBackend;
 import org.apache.flink.runtime.state.FunctionInitializationContext;
 import org.apache.flink.runtime.state.FunctionSnapshotContext;
 import org.apache.flink.streaming.api.checkpoint.CheckpointedFunction;
@@ -27,6 +28,11 @@ public class BufferingSinkExample {
         // 1. 创建执行环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(1);
+
+        // 设置检查点
+        env.enableCheckpointing(30000L);
+        // 设置状态后端
+        env.setStateBackend(new EmbeddedRocksDBStateBackend());
 
         // 2. 添加数据源
         SingleOutputStreamOperator<Event> stream = env.addSource(new ClickSource())
@@ -91,7 +97,7 @@ public class BufferingSinkExample {
 
         @Override
         public void initializeState(FunctionInitializationContext context) throws Exception {
-            // 定义算子转台
+            // 定义算子状态
             ListStateDescriptor<Event> descriptor = new ListStateDescriptor<>("buffered-element", Event.class);
 
             checkpointedState = context.getOperatorStateStore().getListState(descriptor);

@@ -1,11 +1,9 @@
 package com.program.chapter9;
 
-import com.program.chapter5.datasource.ClickSource;
-import com.program.chapter5.datasource.Event;
-import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
-import org.apache.flink.api.common.eventtime.WatermarkStrategy;
-import org.apache.flink.api.common.state.MapStateDescriptor;
+import org.apache.flink.api.common.state.*;
 import org.apache.flink.api.common.typeinfo.Types;
+import org.apache.flink.api.java.tuple.Tuple;
+import org.apache.flink.configuration.Configuration;
 import org.apache.flink.streaming.api.datastream.BroadcastStream;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
@@ -51,11 +49,11 @@ public class BehaviorPatternDetectExample {
         BroadcastStream<Pattern> broadcastStream = patternStream.broadcast(patternDescriptor);
 
         //连接两条流进行数据处理
-//        SingleOutputStreamOperator<Object> matches = actionStream.keyBy(data -> data.userId)
-//                .connect(broadcastStream)
-//                .process(new PatternDetector());
+        SingleOutputStreamOperator<Tuple2<String,Pattern>> matches = actionStream.keyBy(data -> data.userId)
+                .connect(broadcastStream)
+                .process(new PatternDetector());
 
-//        matches.print("broadcast: ");
+        matches.print("broadcast: ");
 
         // 4. 执行环境
         env.execute();
@@ -106,14 +104,40 @@ public class BehaviorPatternDetectExample {
 
     // 实现自定义的KeyedBroadcastProcessFunction
     public static class PatternDetector extends KeyedBroadcastProcessFunction<String , Action ,Pattern , Tuple2<String , Pattern>>{
+        // 定义一个keyedState，保存用户的上一次行为
+        ValueState<String> preActionState;
+
+        @Override
+        public void open(Configuration parameters) throws Exception {
+            preActionState = getRuntimeContext().getState(new ValueStateDescriptor<String>("last-action", String.class));
+        }
 
         @Override
         public void processElement(Action value, ReadOnlyContext ctx, Collector<Tuple2<String, Pattern>> out) throws Exception {
+            // 从广播状态中获取匹配模式
+            ReadOnlyBroadcastState<Void, Pattern> patternState = ctx.getBroadcastState(new MapStateDescriptor<>("pattern", Types.VOID, Types.POJO(Pattern.class)));
+            Pattern pattern = patternState.get(null);
 
+            // 获取用户上一次的行为
+            String preAction = preActionState.value();
+
+            // 判断是否匹配
+            if(pattern != null && preAction != null){
+                if (pattern.action1.equals(preAction) && pattern.action2.equals(value.action)) {
+                    out.collect(new Tuple2<>(ctx.getCurrentKey(),pattern));
+                }
+            }
+
+            // 更新状态
+            preActionState.update(value.action);
         }
 
         @Override
         public void processBroadcastElement(Pattern value, Context ctx, Collector<Tuple2<String, Pattern>> out) throws Exception {
+            // 从上文中获取广播状态，并用当前数据更新状态
+            BroadcastState<Void, Pattern> patternState = ctx.getBroadcastState(new MapStateDescriptor<>("pattern", Types.VOID, Types.POJO(Pattern.class)));
+            // 更新状态
+            patternState.put(null, value);
 
         }
     }

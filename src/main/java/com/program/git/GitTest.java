@@ -1,5 +1,7 @@
 package com.program.git;
 
+import com.fasterxml.uuid.Generators;
+
 /**
  * @author : kaisy
  * @date : 2022/5/7 17:32
@@ -19,6 +21,6 @@ public class GitTest {
         System.out.println("double way");
         System.out.println("double modify way");
         System.out.println("double modify way");
-        System.out.println(UUIDGenerator.generate());
+        System.out.println(Generators.nameBasedGenerator().generate("001").toString().toUpperCase());
     }
 }
