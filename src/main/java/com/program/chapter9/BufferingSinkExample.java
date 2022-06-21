@@ -9,8 +9,11 @@ import org.apache.flink.api.common.state.ListStateDescriptor;
 import org.apache.flink.contrib.streaming.state.EmbeddedRocksDBStateBackend;
 import org.apache.flink.runtime.state.FunctionInitializationContext;
 import org.apache.flink.runtime.state.FunctionSnapshotContext;
+import org.apache.flink.runtime.state.storage.FileSystemCheckpointStorage;
+import org.apache.flink.streaming.api.CheckpointingMode;
 import org.apache.flink.streaming.api.checkpoint.CheckpointedFunction;
 import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
+import org.apache.flink.streaming.api.environment.CheckpointConfig;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.sink.SinkFunction;
 
@@ -33,10 +36,22 @@ public class BufferingSinkExample {
         env.enableCheckpointing(30000L);
         // 设置状态后端
         env.setStateBackend(new EmbeddedRocksDBStateBackend());
+        //设置检查点存储路径
+//        env.getCheckpointConfig().setCheckpointStorage(new FileSystemCheckpointStorage("hdfs://name"));
+        CheckpointConfig checkpointConfig = env.getCheckpointConfig();
+        checkpointConfig.setCheckpointTimeout(6000L);                           // 设置检查点保存的超时时间，超时没完成就会被丢弃掉
+        checkpointConfig.setCheckpointingMode(CheckpointingMode.AT_LEAST_ONCE); // 设置检查点模式
+        checkpointConfig.setMinPauseBetweenCheckpoints(500L);                   // 设置下一次检查点保存的最小间隔
+        checkpointConfig.setMaxConcurrentCheckpoints(1);                        // 运行中的检查点最多可以有多少个（并发度）；设置了最小间隔，这个并行度必须为1
+        // 开启检查点的外部持久化，而且默认在作业失败的时候不会自动清理，如果想释放空间需要自己手工清理
+        // DELETE_ON_CANCELLATION：在作业取消的时候会自动删除外部检查点，但是如果是作业失败退出，则会保留检查点。
+        // RETAIN_ON_CANCELLATION：作业取消的时候也会保留外部检查点
+        checkpointConfig.enableExternalizedCheckpoints(CheckpointConfig.ExternalizedCheckpointCleanup.DELETE_ON_CANCELLATION);
+        checkpointConfig.enableUnalignedCheckpoints();                          // 启用不对其的检查点保存
 
         // 2. 添加数据源
         SingleOutputStreamOperator<Event> stream = env.addSource(new ClickSource())
-                .assignTimestampsAndWatermarks(WatermarkStrategy.<Event>forBoundedOutOfOrderness(Duration.ZERO)
+                .assignTimestampsAndWatermarks(WatermarkStrategy. <Event>forBoundedOutOfOrderness(Duration.ZERO)
                         .withTimestampAssigner(new SerializableTimestampAssigner<Event>() {
                             @Override
                             public long extractTimestamp(Event element, long recordTimestamp) {

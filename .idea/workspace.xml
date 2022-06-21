@@ -4,52 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="state code &amp; UUID test">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_7_2_2_jre8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ververica_flink_connector_debezium_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ververica_flink_connector_sqlserver_cdc_2_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_debezium_debezium_api_1_5_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_debezium_debezium_connector_sqlserver_1_5_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_debezium_debezium_core_1_5_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_debezium_debezium_embedded_1_5_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_argparse4j_argparse4j_0_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_api_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_file_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_json_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_runtime_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_connect_transforms_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_tools_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_awaitility_awaitility_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_33_v20201020.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_33_v20201020.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_33_v20201020.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_33_v20201020.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_33_v20201020.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_33_v20201020.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_12.xml" afterDir="false" />
+    <list default="true" id="e82be6cc-6099-4741-9a7a-51865be44cbf" name="Changes" comment="state backend">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_data_artisans_frocksdbjni_5_17_2_artisans_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_uuid_java_uuid_generator_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_statebackend_rocksdb_2_12_1_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter11/SimpleTableExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skin_flink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/skin_flink.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/program/chapter9/BehaviorPatternDetectExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter9/BehaviorPatternDetectExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/program/chapter9/BufferingSinkExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/program/chapter9/BufferingSinkExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/program/git/GitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/program/git/GitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/program/git/GitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/program/git/GitTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -115,7 +79,7 @@
       <recent name="com.program.flinkcdc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BehaviorPatternDetectExample">
+  <component name="RunManager" selected="Application.SimpleTableExample">
     <configuration name="AverageTimestampExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.program.chapter9.AverageTimestampExample" />
       <module name="skin_flink" />
@@ -155,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FakeWindowExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.program.chapter9.FakeWindowExample" />
+    <configuration name="GitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.git.GitTest" />
       <module name="skin_flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.program.chapter9.*" />
+          <option name="PATTERN" value="com.program.git.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.program.git.GitTest" />
+    <configuration name="SimpleTableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.program.chapter11.SimpleTableExample" />
       <module name="skin_flink" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.program.git.*" />
+          <option name="PATTERN" value="com.program.chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,19 +172,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.StreamWordCount" />
-      <item itemvalue="Application.FakeWindowExample" />
       <item itemvalue="Application.AverageTimestampExample" />
       <item itemvalue="Application.BufferingSinkExample" />
       <item itemvalue="Application.GitTest" />
       <item itemvalue="Application.BehaviorPatternDetectExample" />
+      <item itemvalue="Application.SimpleTableExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleTableExample" />
         <item itemvalue="Application.BehaviorPatternDetectExample" />
         <item itemvalue="Application.GitTest" />
         <item itemvalue="Application.BufferingSinkExample" />
         <item itemvalue="Application.AverageTimestampExample" />
-        <item itemvalue="Application.FakeWindowExample" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +213,9 @@
       <workItem from="1653460832490" duration="13445000" />
       <workItem from="1653878487250" duration="33521000" />
       <workItem from="1654479790097" duration="9252000" />
-      <workItem from="1654845295399" duration="2958000" />
+      <workItem from="1654845295399" duration="12091000" />
+      <workItem from="1655431435436" duration="601000" />
+      <workItem from="1655687271979" duration="2834000" />
     </task>
     <task id="LOCAL-00001" summary="flink cdc &amp; flink wc code">
       <created>1650966225547</created>
@@ -440,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654587676045</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="state backend">
+      <created>1654851900981</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1654851900981</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +581,8 @@
     <MESSAGE value="window join &amp; cogroup join code" />
     <MESSAGE value="state code" />
     <MESSAGE value="state code &amp; UUID test" />
-    <option name="LAST_COMMIT_MESSAGE" value="state code &amp; UUID test" />
+    <MESSAGE value="state backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="state backend" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
